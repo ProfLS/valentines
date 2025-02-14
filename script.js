@@ -3,7 +3,7 @@ const yesButton = document.getElementById("yesButton");
 const counterDisplay = document.getElementById("failed-no-counter");
 const counterValue = document.getElementById("count");
 // Create audio element
-const audio = new Audio("images/song.mp3");
+const audio = new Audio("song.mp3");
 audio.loop = true; // Loop the song
 
 // Create mute/unmute button
